@@ -42,3 +42,13 @@ It contains modules for combinational and sequential circuits, finite state mach
 - [ ] Testbench basics  
 - [ ] Waveform verification  
 - [ ] Timing analysis  
+
+
+<!-- =================== MERMAID DIAGRAMS =================== -->
+## 🧩 System Overview (VLSI)
+
+### VLSI Data Flow
+```mermaid flowchart LR
+    RTL DESIGN & TESTBENCH CODES --> EDA PLAYGROUND 
+    EDA PLAYGROUND --> TOOLS & SIMULATOR
+    TOOLS & SIMULATOR --> SimulationOutput
