@@ -44,11 +44,14 @@ It contains modules for combinational and sequential circuits, finite state mach
 - [ ] Timing analysis  
 
 
-<!-- =================== MERMAID DIAGRAMS =================== -->
-## 🧩 System Overview (VLSI)
+## 🧩 VLSI System Overview
 
-### VLSI Data Flow
-```mermaid flowchart LR
-    RTL DESIGN & TESTBENCH CODES --> EDA PLAYGROUND 
-    EDA PLAYGROUND --> TOOLS & SIMULATOR
-    TOOLS & SIMULATOR --> SimulationOutput
+This flowchart represents the **RTL design and simulation process** for VLSI projects.  
+It shows how your Verilog RTL modules and testbenches are compiled, simulated, and produce waveform outputs.
+
+### VLSI RTL Design Data Flow
+```mermaid
+flowchart LR
+    RTL_DESIGN_TESTBENCH -->|Compile & Check| EDA_PLAYGROUND
+    EDA_PLAYGROUND -->|Simulate| TOOLS_SIMULATOR
+    TOOLS_SIMULATOR -->|Waveform Output| SIMULATION_OUTPUT
