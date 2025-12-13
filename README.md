@@ -49,7 +49,7 @@ It contains modules for combinational and sequential circuits, finite state mach
 This flowchart represents the **RTL design and simulation process** for VLSI projects.  
 It shows how your Verilog RTL modules and testbenches are compiled, simulated, and produce waveform outputs.
 
-### VLSI RTL Design Data Flow
+### RTL design and verification using free source EDA plaground
 ```mermaid
 flowchart LR
     RTL_DESIGN_TESTBENCH -->|Compile & Check| EDA_PLAYGROUND
